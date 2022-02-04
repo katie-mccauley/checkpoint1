@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Dog Photoshot</title>
 
@@ -34,8 +37,8 @@
 </head>
 
 <body class="debug">
-  <header class="">
-    <div class="row sticky-top">
+  <header class="sticky-top">
+    <div class=" ">
       <nav class="navbar navbar-light bg-lightpink">
         <div class="container-fluid justify-content-start align-items-center">
           <i class="fas fa-dog m-1"></i>
@@ -47,7 +50,8 @@
   <main class="container-fluid">
     <div class="row bg-picture">
       <div class="col-md-4 col-12 p-3">
-        <form>
+        <h5>Form for dog photos</h5>
+        <form class="bg-light p-3 rounded shadow">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
@@ -72,15 +76,15 @@
         <h4>If you need a great photographer for your dogs photos, we can do that for you</h4>
       </div>
     </div>
-    <div class="row bg-lightpink">
-      <div class="col-5 p-2">
+    <div class="row align-items-center bg-lightpink">
+      <div class="col-md-5 col-12 order-2 order-md-1 p-2 flex-md-row flex-column h-75">
         <h2>
           This photoShoot is cheap and easy to get done
         </h2>
         <p>We care very much about dogs and we love them Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
           deserunt.</p>
       </div>
-      <div class="col-7 p-2 d-flex justify-content-center">
+      <div class="col-md-7 col-12 p-2 card-y d-flex justify-content-center order-1 order-md-2 flex-md-row flex-column">
         <div class="card bg-secondary" style="width: 25rem;">
           <div class="card-header">
             Contact Information
@@ -94,52 +98,84 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-4">
-        <p>
-          Picture goes here
-        </p>
+      <div class="col-md-4 col-12 p-5 image-rec">
+        <img
+          src="https://media.istockphoto.com/photos/little-pug-in-summer-park-picture-id186812586?b=1&k=20&m=186812586&s=170667a&w=0&h=Jj9FAcJ7ZO8yv9I9gAbbG4QdtW6oNfLgyrDs034cb8U="
+          alt="dogs">
       </div>
-      <div class="col-8">
-        <p>
-          Icon, text and smaller text
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-around">
-      <div class="col-3">
-        <p>
-          small card
-        </p>
-      </div>
-      <div class="col-3">
-        <p>
-          large card
-        </p>
-      </div>
-      <div class="col-3">
-        <p>
-          small card
-        </p>
+      <div class="col-md-8 col-12 d-flex justify-content-center flex-column mt-8 p-4">
+        <h3><i class="fas fa-paw me-1"></i>Icon, text and smaller text Lorem ipsum, dolor sit amet consectetur
+          adipisicing.
+        </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum recusandae et reprehenderit quas.
+          Aut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolore explicabo nisi?</p>
+        <div class="text-end">
+          <a class="text-dark btn p-2 px-4 bg-secondary" href="about">More</a>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <p>
-          Large Text
-        </p>
+    <!-- SECTION 3 cards -->
+    <div class="row justify-content-center bg-lightgrey align-items-center">
+      <div
+        class="col-md-3 order-md-1 order-2 col-12 m-5 d-flex justify-content-center align-content-center height-card">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
       </div>
+      <div class="col-md-3 order-md-2 order-1 col-12 m-5">
+        <div class="card-body bg-light text-center" style="width: 22rem;">
+          <img
+            src="https://media.istockphoto.com/photos/pug-dog-picture-id469360172?k=20&m=469360172&s=612x612&w=0&h=_cXOiZVc6FdTiU5mjTTB_Nuglx_7wf4oc_LKGvy6DBI="
+            class="card-img-top img-card" alt="...">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div
+        class="col-md-3 col-12 order-md-3 order-3 m-5 d-flex justify-content-center align-content-center height-card">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-lightpink">
       <div class="col-12">
-        <p>
-          Smaller text
-        </p>
+        <h2>All of these photos of pugs are cute Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque vitae officia sapiente voluptatem
+          distinctio libero ipsa temporibus architecto consequatur id, assumenda voluptates reprehenderit eos nemo
+          repellendus impedit ex eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minus ab quia
+          placeat similique porro, quam voluptatum quis libero omnis nulla laboriosam praesentium exercitationem fuga
+          odio obcaecati animi necessitatibus reiciendis unde molestias sapiente voluptatibus, itaque aliquam. Rem
+          impedit sint architecto atque blanditiis quos labore optio ut et illum! Distinctio recusandae fugit fugiat
+          aliquam veniam assumenda ipsum cumque expedita excepturi iure, ut ducimus id aliquid voluptatem ea, deleniti
+          blanditiis labore maiores aspernatur vel! Aut corrupti quo dolor inventore amet, id libero?</p>
       </div>
     </div>
   </main>
   <footer class="container-fluid">
-    <div class="row">
+    <div class="row bg-lightgrey">
       <div class="col-12 text-center">
-        <p class="d-flex align-content-center justify-content-center m-o">
-          Text in footer
+        <p class="d-flex align-content-center justify-content-center m-0 p-3">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum perspiciatis eaque quos sint nihil
+          consectetur ratione dignissimos dolor. Lorem ipsum dolor sit amet consectetur.
         </p>
       </div>
     </div>

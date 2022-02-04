@@ -1,6 +1,15 @@
+*{
+  font-family: 'Catamaran', sans-serif;
+}
+
 :root{
   --pink: rgb(245, 131, 150);
   --lightpink: pink;
+  --lightgrey: rgb(190, 188, 188);
+}
+
+.bg-lightgrey{
+  background-color: var(--lightgrey);
 }
 
 .dog-i{
@@ -22,3 +31,32 @@
   min-height: 70vh;
   background-position: center;
 }
+
+.card-y{
+  transform: translateY(25%);
+}
+
+@media screen and (max-width: 768px){
+  .card-y{
+    transform: translateY(0%);
+  }
+}
+
+.image-rec{
+  background-size: cover;
+  min-height: 40vh;
+  min-width: 30vh;
+  background-position: center;
+}
+
+.img-card{
+  height: 10vw;
+  width: 11vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.height-card{
+  height: 25vh;
+}
+
