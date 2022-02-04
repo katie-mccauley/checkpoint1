@@ -36,7 +36,7 @@
 <body class="debug">
   <header class="">
     <div class="row sticky-top">
-      <nav class="navbar navbar-light bg-pink">
+      <nav class="navbar navbar-light bg-lightpink">
         <div class="container-fluid justify-content-start align-items-center">
           <i class="fas fa-dog m-1"></i>
           <h3 class="m-0">Dog Photoshot</h3>
@@ -45,20 +45,52 @@
     </div>
   </header>
   <main class="container-fluid">
-    <div class="row">
-      <div class="col-4">form</div>
-      <div class="col-8">text over image</div>
-    </div>
-    <div class="row">
-      <div class="col-5">
-        <p>
-          This is where text goes by the ypicture
-        </p>
+    <div class="row bg-picture">
+      <div class="col-md-4 col-12 p-3">
+        <form>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Name</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="inputPhone">Phone Number</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="#">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Message</label>
+            <input type="text" class="form-control" id="inputMessage">
+          </div>
+          <button type="submit" class="btn btn-primary col-3">Submit</button>
+        </form>
       </div>
-      <div class="col-7">
-        <p>
-          This is where the image goes
-        </p>
+      <div class="col-8 d-none d-md-block p-3">
+        <h2>Dog Landia PhotoShot</h2>
+        <h4>If you need a great photographer for your dogs photos, we can do that for you</h4>
+      </div>
+    </div>
+    <div class="row bg-lightpink">
+      <div class="col-5 p-2">
+        <h2>
+          This photoShoot is cheap and easy to get done
+        </h2>
+        <p>We care very much about dogs and we love them Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+          deserunt.</p>
+      </div>
+      <div class="col-7 p-2 d-flex justify-content-center">
+        <div class="card bg-secondary" style="width: 25rem;">
+          <div class="card-header">
+            Contact Information
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">503-666-7777</li>
+            <li class="list-group-item">dogphotoshoot@hotmail.com</li>
+            <li class="list-group-item">5555 S hanah way</li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="row">

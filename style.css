@@ -11,3 +11,14 @@
 .bg-pink{
   background-color: var(--pink);
 }
+
+.bg-lightpink{
+  background-color: var(--lightpink);
+}
+
+.bg-picture{
+  background-image: url(https://media.istockphoto.com/photos/funny-sleepy-pug-dog-with-gum-in-the-eye-sleep-rest-on-floor-picture-id868008896?b=1&k=20&m=868008896&s=170667a&w=0&h=Dn8XLXoH79QafXQ-2bQ29h762_JqhwJLcDWr7cA8lpI=) ;
+  background-size: cover;
+  min-height: 70vh;
+  background-position: center;
+}
