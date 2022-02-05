@@ -42,7 +42,7 @@
       <nav class="navbar navbar-light bg-lightpink">
         <div class="container-fluid justify-content-start align-items-center">
           <i class="fas fa-dog m-1"></i>
-          <h3 class="m-0">Dog Photoshoot</h3>
+          <h3 class="m-0 fw-bold">Dog Photoshoot</h3>
         </div>
       </nav>
     </div>
@@ -51,23 +51,24 @@
     <!-- main pug photo -->
     <div class="row bg-picture">
       <div class="col-md-4 col-12 p-5">
-        <h5 class="fw-bold">Form for dog photos</h5>
+        <h4 class="fw-bold">Form for Dog Photoshoot</h4>
         <form class="bg-lightestgrey p-3 rounded shadow">
+          <h5 class="fw-bold mb-0 p-2 pb-1">Form for Dog Photoshoot</h5>
+          <div class="form-group fw-bold p-2 pt-1">
+            <label for="inputAddress" class="form-label"></label>
+            <input type="text" class="form-control shadow" id="inputName" placeholder="Name">
+          </div>
           <div class="form-group col-md-6 p-2 fw-bold">
-            <label for="inputEmail4">Email</label>
+            <label for="inputEmail4"></label>
             <input type="email" class="form-control shadow" id="inputEmail4" placeholder="Email">
           </div>
           <div class="form-group fw-bold p-2">
-            <label for="inputAddress">Name</label>
-            <input type="text" class="form-control shadow" id="inputName" placeholder="Name">
+            <label for="inputPhone"></label>
+            <input type="text" class="form-control shadow" id="inputAddress2" placeholder="Phone Number">
           </div>
           <div class="form-group fw-bold p-2">
-            <label for="inputPhone">Phone Number</label>
-            <input type="text" class="form-control shadow" id="inputAddress2" placeholder="#">
-          </div>
-          <div class="form-group col-md-2 fw-bold p-2">
-            <label for="inputZip">Message</label>
-            <input type="text" class="form-control shadow" id="inputMessage">
+            <label for="inputAddress" class="form-label"></label>
+            <input type="text" class="form-control shadow pb-5" id="inputMessage" placeholder="Message">
           </div>
           <button type="submit" class="btn btn-primary p-2 m-2 col-3 fw-bold shadow">Submit Info</button>
         </form>
@@ -91,14 +92,16 @@
           deserunt.</h3>
       </div>
       <div class="col-md-7 col-12 p-2 card-y d-flex justify-content-center order-1 order-md-2 flex-md-row flex-column">
-        <div class="card bg-lightestgrey" style="width: 25rem;">
-          <div class="card-header fw-bold">
+        <div class="card bg-lightestgrey shadow" style="width: 25rem; height: 10rem;">
+          <div class="card-header fw-bold h-25 p-3">
             Contact Information
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">503-666-7777</li>
-            <li class="list-group-item">dogphotoshoot@hotmail.com</li>
-            <li class="list-group-item">5555 S hanah way</li>
+          <ul class="list-group list-group-flush h-50">
+            <li class="list-group-item p-3"><i class="fas fa-phone me-1"></i> 503-666-7777</li>
+            <li class="list-group-item p-3"><i class="fas fa-envelope-square"></i>dogphotoshoot@hotmail.com</li>
+            <li class="list-group-item p-3"><i class="fas fa-home"></i>
+              <h5 class="m-0">5555 S hanah way Garden </h5>
+            </li>
           </ul>
         </div>
       </div>
@@ -108,14 +111,18 @@
       <div class="col-md-4 col-12 p-5 d-flex align-content-center justify-content-center">
         <img
           src="https://media.istockphoto.com/photos/little-pug-in-summer-park-picture-id186812586?b=1&k=20&m=186812586&s=170667a&w=0&h=Jj9FAcJ7ZO8yv9I9gAbbG4QdtW6oNfLgyrDs034cb8U="
-          class="img-square text-center rounded" alt="dogs">
+          class="img-square text-center rounded shadow" alt="dogs">
       </div>
       <div class="col-md-8 col-12 d-flex justify-content-center flex-column mt-8 p-4">
-        <h3><i class="fas fa-paw me-1"></i>Icon, text and smaller text Lorem ipsum, dolor sit amet consectetur
+        <h2 class="fw-bold"><i class="fas fa-paw me-1"></i>Icon, text and smaller text Lorem ipsum, dolor sit amet
+          consectetur
           adipisicing.
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum recusandae et reprehenderit quas.
-          Aut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolore explicabo nisi?</p>
+        </h2>
+        <h3 class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum recusandae et
+          reprehenderit quas.
+          Aut. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dolore explicabo nisi? Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Odit aspernatur minima recusandae reiciendis voluptas nam nisi
+          necessitatibus rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas?</h3>
         <div class="text-end">
           <a class="btn p-2 px-4 bg-secondary text-light fw-bold shadow" href="#about">More</a>
         </div>
@@ -125,38 +132,40 @@
     <div class="row justify-content-center bg-lightgrey align-items-center">
       <div
         class="col-md-3 order-md-1 order-2 col-12 m-5 d-flex justify-content-center align-content-center height-card">
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <h5 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolores voluptas </h5>
             <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
         </div>
       </div>
-      <div class="d-flex justify-content-center col-md-3 order-md-2 order-1 col-12 m-5">
-        <div class="card-body bg-light text-center shadow rounded" style="width: 20rem;">
-          <img
-            src="https://media.istockphoto.com/photos/pug-dog-picture-id469360172?k=20&m=469360172&s=612x612&w=0&h=_cXOiZVc6FdTiU5mjTTB_Nuglx_7wf4oc_LKGvy6DBI="
-            class="card-img-top img-card rounded" alt="...">
-          <h5 class="card-title">Card title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
+
+      <div class="card col-md-3 order-md-2 order-1 col-12 m-5 shadow" style="width: 22rem;">
+        <img
+          src="https://media.istockphoto.com/photos/pug-dog-picture-id469360172?k=20&m=469360172&s=612x612&w=0&h=_cXOiZVc6FdTiU5mjTTB_Nuglx_7wf4oc_LKGvy6DBI="
+          class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-text text-center">Some quick example text to build on the card title and make up the bulk of
+            the card's
+            content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, perspiciatis. Ad commodi odit esse
+            distinctio magnam dolore quam nostrum similique nihil quae eligendi, ipsa perspiciatis itaque cupiditate
+            voluptatibus totam, doloremque aliquid! Quisquam perferendis facere cumque qui nobis recusandae odio
+            magnam.lorem18</h5>
         </div>
       </div>
       <div
         class="col-md-3 col-12 order-md-3 order-3 m-5 d-flex justify-content-center align-content-center height-card">
-        <div class="card shadow" style="width: 18rem;">
+        <div class="card" style="width: 18rem;">
           <div class="card-body text-center">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+            <h5 class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fugiat, corporis magni quae
+              delectus quod.</h5>
             <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
           </div>
@@ -166,8 +175,8 @@
     <!-- More info -->
     <div class="row bg-lightpink">
       <div class="col-12 p-5">
-        <h2>All of these photos of pugs are cute Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque vitae officia sapiente voluptatem
+        <h2 class="fw-bold">All of these photos of pugs are cute Lorem ipsum dolor sit amet.</h2>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit neque vitae officia sapiente voluptatem
           distinctio libero ipsa temporibus architecto consequatur id, assumenda voluptates reprehenderit eos nemo
           repellendus impedit ex eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus minus ab quia
           placeat similique porro, quam voluptatum quis libero omnis nulla laboriosam praesentium exercitationem fuga

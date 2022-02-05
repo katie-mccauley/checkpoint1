@@ -47,7 +47,7 @@
 }
 
 .card-y{
-  transform: translateY(45%);
+  transform: translateY(35%);
 }
 
 @media screen and (max-width: 768px){
@@ -79,5 +79,10 @@
 
 .height-card{
   height: 25vh;
+}
+
+.height-contact{
+  height: 20vh;
+  width: 20vh
 }
 
