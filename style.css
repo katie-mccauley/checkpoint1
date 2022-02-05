@@ -47,7 +47,7 @@
 }
 
 .card-y{
-  transform: translateY(35%);
+  transform: translateY(45%);
 }
 
 @media screen and (max-width: 768px){
