@@ -3,9 +3,23 @@
 }
 
 :root{
-  --pink: rgb(245, 131, 150);
+  --pink: rgb(141, 46, 62);
   --lightpink: pink;
-  --lightgrey: rgb(190, 188, 188);
+  --pinktext: rgb(14, 13, 13);
+  --lightgrey: rgb(196, 194, 194);
+  --lightestgrey: rgb(224, 222, 222);
+}
+
+.bg-lightestgrey{
+  background-color: var(--lightestgrey);
+}
+
+.pink-text{
+  color: var(--pink);
+}
+
+.lightpink-text{
+  color: var(--pinktext)
 }
 
 .bg-lightgrey{
@@ -33,25 +47,32 @@
 }
 
 .card-y{
-  transform: translateY(25%);
+  transform: translateY(45%);
 }
 
 @media screen and (max-width: 768px){
   .card-y{
     transform: translateY(0%);
   }
+
+  .img-sqaure{
+    object-fit: cover;
+    min-height: 65vw;
+    min-width: 60vw;
+    object-position: center;
+  }
 }
 
-.image-rec{
-  background-size: cover;
-  min-height: 40vh;
-  min-width: 30vh;
-  background-position: center;
+.img-square{
+  height: 20vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
 }
 
 .img-card{
-  height: 10vw;
-  width: 11vw;
+  height: 15vw;
+  width: 20vw;
   object-fit: cover;
   object-position: center;
 }
