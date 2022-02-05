@@ -55,10 +55,10 @@
     transform: translateY(0%);
   }
 
-  .img-sqaure{
+  .img-square{
+    height: 65vw;
+    width: 60vw;
     object-fit: cover;
-    min-height: 65vw;
-    min-width: 60vw;
     object-position: center;
   }
 }
