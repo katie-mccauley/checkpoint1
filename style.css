@@ -57,6 +57,11 @@
   object-position: center;
 }
 
+.height-contact{
+  height: 28vh;
+  width: 55vh;
+}
+
 @media screen and (max-width: 768px){
   .card-y{
     transform: translateY(0%);
@@ -68,7 +73,13 @@
     object-fit: cover;
     object-position: center;
   }
+
+  .height-contact{
+    height: 30vh;
+    width: 45vh;
+  }
 }
+
 
 .img-card{
   height: 15vw;
@@ -81,8 +92,5 @@
   height: 25vh;
 }
 
-.height-contact{
-  height: 20vh;
-  width: 20vh
-}
+
 
