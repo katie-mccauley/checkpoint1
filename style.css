@@ -67,9 +67,6 @@
   transition: all .2s linear;
 }
 
-.card:after{
-  transition: all .2s linear;
-}
 
 @media screen and (max-width: 768px){
   .card-y{
@@ -89,7 +86,7 @@
   }
 
   .card:hover{
-    transform: scale(.5);
+    transform: scale(1.05);
   }
 }
 
