@@ -2,6 +2,7 @@
   font-family: 'Catamaran', sans-serif;
 }
 
+
 :root{
   --pink: rgb(141, 46, 62);
   --lightpink: pink;
@@ -47,7 +48,7 @@
 }
 
 .card-y{
-  transform: translateY(45%);
+  transform: translateY(40%);
 }
 
 .img-square{
